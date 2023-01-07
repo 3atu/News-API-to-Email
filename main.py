@@ -27,3 +27,4 @@ for article in content["articles"][:20]: #article is a key. we are looking for d
 
 body = body.encode("utf-8")
 send_email(message=body)
+
